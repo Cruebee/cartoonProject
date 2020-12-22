@@ -60,3 +60,38 @@ let characters = [
     created: '2018-01-10T18:20:41.703Z',
   },
 ];
+
+for (let i = 0; i < characters.length; i++) {
+  if (i >= 0) {
+    document.write('<p>Name: ' + characters[i].name + '</p>');
+  }
+}
+
+/*
+for (var i = 5; i >= 0; i--) {
+  if (i === 0) {
+    document.write('<p>No More Monkeys</p>');
+  } else {
+    document.write(
+      '<p>' +
+        i +
+        ' monkeys jumping on the bed. One fell off and bumped his head.'
+    );
+  }
+}
+
+
+var i = 1;
+
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
+
+
+do {
+  console.log(i);
+  i++;
+} while (i < 5);
+
+*/
